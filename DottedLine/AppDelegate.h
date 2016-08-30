@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  DottedLine
 //
-//  Created by Almas on 16/8/29.
+//  Created by Ali on 16/8/29.
 //  Copyright © 2016年 Ali. All rights reserved.
 //
 

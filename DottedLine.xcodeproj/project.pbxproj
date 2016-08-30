@@ -13,6 +13,7 @@
 		705ADDA81D7445AE00DCA181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705ADDA61D7445AE00DCA181 /* Main.storyboard */; };
 		705ADDAA1D7445AE00DCA181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705ADDA91D7445AE00DCA181 /* Assets.xcassets */; };
 		705ADDAD1D7445AE00DCA181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705ADDAB1D7445AE00DCA181 /* LaunchScreen.storyboard */; };
+		70ADE51E1D7451EB000DC9D7 /* UIView+DotterLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ADE51D1D7451EB000DC9D7 /* UIView+DotterLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		705ADDA91D7445AE00DCA181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		705ADDAC1D7445AE00DCA181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		705ADDAE1D7445AE00DCA181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70ADE51C1D7451EB000DC9D7 /* UIView+DotterLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DotterLine.h"; sourceTree = "<group>"; };
+		70ADE51D1D7451EB000DC9D7 /* UIView+DotterLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DotterLine.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		705ADD9C1D7445AE00DCA181 /* DottedLine */ = {
 			isa = PBXGroup;
 			children = (
+				70ADE5151D7447FB000DC9D7 /* DotterLine */,
 				705ADDA01D7445AE00DCA181 /* AppDelegate.h */,
 				705ADDA11D7445AE00DCA181 /* AppDelegate.m */,
 				705ADDA31D7445AE00DCA181 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				705ADD9E1D7445AE00DCA181 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70ADE5151D7447FB000DC9D7 /* DotterLine */ = {
+			isa = PBXGroup;
+			children = (
+				70ADE51C1D7451EB000DC9D7 /* UIView+DotterLine.h */,
+				70ADE51D1D7451EB000DC9D7 /* UIView+DotterLine.m */,
+			);
+			path = DotterLine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 				705ADDA51D7445AE00DCA181 /* ViewController.m in Sources */,
 				705ADDA21D7445AE00DCA181 /* AppDelegate.m in Sources */,
 				705ADD9F1D7445AE00DCA181 /* main.m in Sources */,
+				70ADE51E1D7451EB000DC9D7 /* UIView+DotterLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +314,7 @@
 				705ADDB31D7445AE00DCA181 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
