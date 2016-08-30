@@ -6,3 +6,13 @@
 - 画单个横向虚线 
 - 画单个竖向虚线 
 - 给View添加虚线边框
+
+
+#简单用法
+```
+    /** 给当前view 添加虚线边框 **/
+    UIView *dotterLineRect= [[UIView alloc]initWithFrame:CGRectMake(40, 260, 200, 200)];
+    dotterLineRect.backgroundColor = [UIColor yellowColor];
+    [dotterLineRect drawRectDotterLineWithLineWight:4 lineLength:4 lineSpacing:2 lineColor:[UIColor redColor] cornerRadius:25];
+    [self.view addSubview:dotterLineRect];
+```
